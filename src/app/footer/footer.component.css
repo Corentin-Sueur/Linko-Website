@@ -1,0 +1,24 @@
+footer {
+  background-color: aqua;
+}
+
+#contacts-list {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+li.li-inline{
+    display: inline-block;
+}
+
+.logo-ext{
+    width: 50px;
+}
+
