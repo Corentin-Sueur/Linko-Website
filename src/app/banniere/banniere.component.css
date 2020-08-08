@@ -1,0 +1,42 @@
+header {
+  background-color: #050506;
+  width: 100%;
+  margin: 0;
+}
+
+#banniere {
+  padding: 30px;
+}
+
+#logo {
+  width: 300px;
+  display: inline-block;
+}
+#logo img {
+  max-width: 100%;
+}
+
+#banniere-permanente {
+  max-width: 60%;
+  width: auto;
+  display: inline-block;
+  margin: auto;
+}
+
+nav {
+  border: 1px solid white;
+  display: inline-block;
+}
+
+nav a {
+  color: #26c4ec;
+  font-size: 25px;
+  border: 1px solid white;
+}
+
+#devis {
+  background-color: #26c4ec;
+  color: red;
+  border: 1px solid white;
+  display: inline-block;
+}
