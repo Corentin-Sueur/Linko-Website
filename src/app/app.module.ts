@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { BanniereComponent } from './banniere/banniere.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccueilComponent } from './accueil/accueil.component';
+import { PageContactComponent } from './page-contact/page-contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BanniereComponent,
     FooterComponent,
-    AccueilComponent
+    AccueilComponent,
+    PageContactComponent
   ],
   imports: [
     BrowserModule,
