@@ -29,9 +29,15 @@ nav {
 }
 
 nav a {
-  color: #26c4ec;
+  color: red;
   font-size: 25px;
-  border: 1px solid white;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+nav a :focus{
+  background-color: grey;
+  color : blue;
 }
 
 #devis {
