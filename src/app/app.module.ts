@@ -7,6 +7,7 @@ import { BanniereComponent } from './banniere/banniere.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { PageContactComponent } from './page-contact/page-contact.component';
+import { PageEtudiantsComponent } from './page-etudiants/page-etudiants.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PageContactComponent } from './page-contact/page-contact.component';
     BanniereComponent,
     FooterComponent,
     AccueilComponent,
-    PageContactComponent
+    PageContactComponent,
+    PageEtudiantsComponent
   ],
   imports: [
     BrowserModule,
