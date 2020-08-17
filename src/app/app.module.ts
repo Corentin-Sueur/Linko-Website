@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BanniereComponent } from './banniere/banniere.component';
 import { FooterComponent } from './footer/footer.component';
+import { AccueilComponent } from './accueil/accueil.component';
+import { PageContactComponent } from './page-contact/page-contact.component';
+import { PageEtudiantsComponent } from './page-etudiants/page-etudiants.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BanniereComponent,
-    FooterComponent
+    FooterComponent,
+    AccueilComponent,
+    PageContactComponent,
+    PageEtudiantsComponent
   ],
   imports: [
     BrowserModule,
