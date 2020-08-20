@@ -1,0 +1,28 @@
+img{
+    float: left;
+    border: 1px none;
+    margin-right: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+   clear: left;
+}
+
+.personnel {
+    border: 2px black none;
+    margin-left: 400px;
+    font-size: x-large;
+    text-align: justify;
+    padding-left: 5px;
+    padding-top: 10px;;
+}
+
+p{
+    font-size: large;
+    width: 75%;
+    min-width: 800px;
+}
