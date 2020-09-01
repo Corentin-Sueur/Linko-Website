@@ -10,11 +10,11 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     AppComponent,
     BanniereComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
