@@ -23,15 +23,6 @@
   width: 300px;
 }
 
-.green {
-  background-color: #2d3142;
-  color: white;
-}
-
-.dark-blue {
-  background: #adacb5;
-}
-
 .logo-competences {
   display: flex;
   justify-content: space-around;

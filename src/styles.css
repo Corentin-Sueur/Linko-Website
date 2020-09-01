@@ -30,3 +30,12 @@ h2 {
   display: flex;
   justify-content: space-around;
 }
+
+.green {
+  background-color: #2d3142;
+  color: white;
+}
+
+.dark-blue {
+  background: #adacb5;
+}
