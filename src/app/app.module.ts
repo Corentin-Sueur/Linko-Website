@@ -5,18 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BanniereComponent } from './banniere/banniere.component';
 import { FooterComponent } from './footer/footer.component';
-import { AccueilComponent } from './accueil/accueil.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BanniereComponent,
     FooterComponent,
-    AccueilComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
