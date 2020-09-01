@@ -11,7 +11,6 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     BanniereComponent,
     FooterComponent,
-
   ],
   imports: [
     BrowserModule,
