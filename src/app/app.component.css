@@ -27,39 +27,3 @@ p{
     min-width: 800px;
 }
 
-.bureau{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width : 100%;
-    margin : auto;
-    border: 1px black none;
-    border-radius: 100px;
-}
-
-img{
-    display: inline-block;
-}
-
-.entreprises{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width : 100%;
-    flex-wrap: wrap;
-    margin : auto;
-    border: 1px black none;
-    border-radius: 100px;
-}
-
-.comm{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width : 100%;
-    margin : auto;
-    border: 1px black none;
-    border-radius: 100px;
-}
