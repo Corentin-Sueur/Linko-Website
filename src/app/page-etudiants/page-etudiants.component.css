@@ -1,0 +1,37 @@
+h2{
+    font-size: 30px;
+    color: rgb(22, 36, 233);
+    text-decoration: underline;
+    margin-left: 50px;
+    min-width: 300px;
+    background-color: white;
+}
+
+.gris{
+    background-color: rgb(163, 163, 172);
+} 
+
+p{
+    margin-left: 10px;
+    font-size: 20px;
+    min-width: 800px;
+}
+
+a{
+    color:blue;
+}
+
+a:hover{
+    color:rgb(59, 245, 59);
+    font-size: 22px;
+}
+
+li{
+    font-size:20px;
+}
+
+.wrapper{
+    background-color:white;
+    color:black;
+    text-align: justify;
+}
