@@ -28,6 +28,10 @@
   justify-content: space-around;
 }
 
+.domaine-de-competences p{
+  font-size: larger;
+}
+
 .domaine {
   width: 250px;
   border: 1px solid white;
