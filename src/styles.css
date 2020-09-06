@@ -37,3 +37,8 @@ h2 {
 .dark-blue {
   background: #adacb5;
 }
+
+a:any-link {
+  color:inherit ;
+  text-decoration: none;
+}
