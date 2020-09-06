@@ -2,6 +2,7 @@
     flex-wrap: wrap;
     width : 100%;
     border: 1px black none;
+    
 }
 
 .entreprises{
@@ -21,8 +22,50 @@
 .personnel{
     width: 250px;
     text-align: center;
+    border:1px solid black;
+    box-shadow: 15px 15px 5px black;
 }
 
 .personnel img{
 width: 200px;
+}
+
+ul{
+    background-color: rgb(207, 201, 201);
+    font-size:20px;
+    font-weight: bold;
+}
+
+#Info{
+    color:yellow;
+}
+
+#Tis{
+    color:blue;
+}
+
+#Iese{
+    color:rgb(248, 66, 178);
+}
+
+#Pri{
+    color:rgb(247, 105, 22);
+}
+
+#Mat{
+    color:red;
+}
+
+#Ggc{
+    color:green;
+}
+
+#E2i{
+    color:black;
+}
+.membre-asso{
+    border : 5px solid black;
+    border-radius: 50px;
+    width : 70%;
+    margin: auto;
 }
