@@ -20,6 +20,7 @@ h2 {
   padding: 20px 20px;
   max-width: 1200px;
   border: 1px solid red;
+  text-align: justify;
 }
 
 /* mettre un z indez plus grand pour la banniere, le logo passe dessus */
