@@ -35,3 +35,17 @@ li{
     color:black;
     text-align: justify;
 }
+
+strong{
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+form{
+    margin:auto;
+}
+
+h3{
+    font-size:20px;
+    text-align: center;
+}
