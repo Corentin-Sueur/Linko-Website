@@ -1,4 +1,4 @@
-<div class="">
+<div class="consultant green">
     <div class="wrapper">
 
         <h2>Devenir consulant</h2>
@@ -16,7 +16,9 @@
             rutrum
             nisl sed finibus.
         </p>
-        <h2>Les Différentes Etapes des Projets</h2>
+
+
+        <h3>Les Différentes Etapes des Projets</h3>
         <p>Tout d'abord, il faut savoir que les projets seront confiés à des équipes d'élèves selon leur filière, leur
             année d'étude et leurs compétences.
             L'avancée de chaque projet sera régulièrement contrôlée pour éviter les retards ou les manquements. <br />
@@ -35,15 +37,130 @@
             Linko se chargera de toutes les démarches administratives et autres procédures pour laisser les étudiants se
             plonger complètement dans leur projet respectif.
         </p>
-
-
+    </div>
+</div>
+<div class="admin dark-blue">
+    <div class="wrapper">
         <h2>Devenir administrateur</h2>
-        <p>Pour élargir notre influence et faire perdurer notre association, nous avons besoin de recruter du monde. En
-            effet, pour pouvoir proposer des projets aux différentes filières de notre école, il nous faut
-            impérativement au moins une personne de chaque filière.
-            Pour rejoindre Linko, voici la démarche à suivre :
+        <p>
+            Devenir administrateur de Linko c'est avant tout devenir un Junior-Entreupreur. En nous rejoingnant tu
+            pourras améliorer tes compétences de gestion et te trouver bien des qualités!
+            <br>
+            Nous organiserons tout au long de l'année des petits évènements pour échanger, mais tu peux aussi venir
+            directement nous voir dans notre local ou même entre les cours!
+            <br>
+            Pendant la période de recrutement nous organiserons davantage d'évènements. Cette période se déroule de
+            ****** à *******
+            C'est l'occasion pour toi de te former à ton nouveau poste!
         </p>
         <ol>
+            <li>Lire le Règlement Intérieur et adhérer à Linko. Il est impératif de
+                lire le Règlement Intérieur (même pour les adhérents) car il vous engage à certaines responsabilités.
+            </li>
+            <li>Répondre au formulaire qui suit (En cours de préparation).
+            <li>Attendre une réponse à l'adresse mail renseignée dans le formulaire</li>
+        </ol>
+
+
+
+
+        <h3>Les postes dans Linko:</h3>
+
+
+        <div id="postes">
+
+            <input class="radio" name="group" type="radio" id="radio-president" checked>
+            <input class="radio" name="group" type="radio" id="radio-vice-pre">
+            <input class="radio" name="group" type="radio" id="radio-secretaire">
+            <input class="radio" name="group" type="radio" id="radio-tresorier">
+            <input class="radio" name="group" type="radio" id="radio-charge-affaires">
+            <input class="radio" name="group" type="radio" id="radio-respo-comm">
+            <input class="radio" name="group" type="radio" id="radio-respo-si">
+            <input class="radio" name="group" type="radio" id="radio-respo-devco">
+            <input class="radio" name="group" type="radio" id="radio-respo-qualite">
+
+            <div class="tabs wrapper" id="tabs">
+                <label class="tab" id="tab-president" for="radio-president">Président</label>
+                <label class="tab" id="tab-vice-pre" for="radio-vice-pre">Vice-Président</label>
+                <label class="tab" id="tab-secretaire" for="radio-secretaire">Secrétaire</label>
+                <label class="tab" id="tab-tresorier" for="radio-tresorier">tresorier</label>
+                <label class="tab" id="tab-charge-affaires" for="radio-charge-affaires">charge-affaires</label>
+                <label class="tab" id="tab-respo-comm" for="radio-respo-comm">respo-comm</label>
+                <label class="tab" id="tab-respo-si" for="radio-respo-si">respo-si</label>
+                <label class="tab" id="tab-respo-devco" for="radio-respo-devco">respo-devco</label>
+                <label class="tab" id="tab-respo-qualite" for="radio-respo-qualite">respo-qualite</label>
+            </div>
+
+            <div class="pannels-postes wrapper" id="panel-postes">
+                <div class="panel" id="one-panel">
+                    <div class="panel-title">Why Learn CSS?</div>
+                    <p>Without CSS, every web page would be drab plain text and images that flowed straight down the
+                        page. With CSS, you can add color and background images and change the layout of your page —
+                        your web pages can feel like works of art!</p>
+                </div>
+                <div class="panel" id="two-panel">
+                    <div class="panel-title">Take-Away Skills</div>
+                    <p>You will learn many aspects of styling web pages! You’ll be able to set up the correct file
+                        structure, edit text and colors, and create attractive layouts. With these skills, you’ll be
+                        able to customize the appearance of your web pages to suit your every need!</p>
+                </div>
+                <div class="panel" id="three-panel">
+                    <div class="panel-title">Note on Prerequisites</div>
+                    <p>We recommend that you complete Learn HTML before learning CSS.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+<div class="infos-utiles">
+
+    <div class="wrapper">
+        <h2>documents utiles:</h2>
+        <ul>
+            <li>Bulletin d'adhésion</li>
+            <li>Les statuts de notre association</li>
+            <li><a href="../../assets/RI.pdf">Le règlement interieur</a></li>
+            <li>Fiches poste</li>
+        </ul>
+
+    </div>
+</div>
+
+
+<!-- <h3>Fomulaire de recrutement</h3>
+
+        <form (ngSubmit)="onSubmit(f)" #f ngForm>
+            <p>
+            <label for="prenom"> Prénom : </label><input type="text" name="prenom" id="prenom" size="30" maxlength="30" required ngModel/><br/>
+            <label for="nom"> Nom : </label><input type="text" name="nom" id="nom" size="30" maxlength="30" required ngModel/><br/>
+            <label for="mail"> E-mail : </label><input type="email" name="mail" id="mail" size="30" required ngModel/><br><br/>
+            <strong>Votre filière :</strong><br/>
+            <input type="radio" name="filiere" value ="info" id="info" ngModel/><label for="info">Informatique</label><br/>
+            <input type="radio" name="filiere" value ="iese" id="iese" ngModel/><label for="iese">Informatique et Electronique des Systèmes Embarqués</label><br/>
+            <input type="radio" name="filiere" value ="tis" id="tis" ngModel/><label for="tis">Technologies de l'Information pour la Santé</label><br/>
+            <input type="radio" name="filiere" value ="ggc" id="ggc" ngModel/><label for="ggc">Géotechnique et Génie Civil</label><br/>
+            <input type="radio" name="filiere" value ="mat" id="mat" ngModel/><label for="mat">Matériaux</label><br/>
+            <input type="radio" name="filiere" value ="pri" id="pri" ngModel/><label for="pri">Prévention des Risques</label><br/>
+            <input type="radio" name="filiere" value ="e2i" id="e2i" ngModel/><label for="e2i">Electronique et Informatique Industrielle</label><br/>
+            <br/>
+            <strong>Votre année d'étude :</strong><br/>
+            <input type="radio" name="annee" value ="3" id="3" ngModel/><label for="3">3</label><br/>
+            <input type="radio" name="annee" value ="4" id="4" ngModel/><label for="4">4</label><br/>
+            <input type="radio" name="annee" value ="5" id="5" ngModel/><label for="5">5</label><br/>
+            Si autre : (Précisez) <input type="number" name="annee" id="annee" ngModel/><label for="annee"></label><br/>
+            <button class="btn btn-primary" type="submit">Enregistrer</button>
+            </p>
+        </form> -->
+
+<!-- <ol>
             <li>Lire le <a href="../../assets/RI.pdf">Règlement Intérieur</a> et adhérer à Linko. Si vous adhérer à
                 Linko, cela veut dire que vous pourrez participer aux Assemblée Générale Extraordinaires qui auront
                 parfois lieu.</li>
@@ -51,6 +168,4 @@
                 différents critères, nous statuerons sur le résultat définitif.</li>
             <li>Attendre une réponse (normalement c'est assez rapide). Si la réponse est positive, des indications
                 seront envoyées pour continuer la procédure de recrutement.</li>
-        </ol>
-    </div>
-</div>
+        </ol> -->
