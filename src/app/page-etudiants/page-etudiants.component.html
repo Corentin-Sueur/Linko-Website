@@ -67,54 +67,55 @@
         <h3>Les postes dans Linko:</h3>
 
 
-        <div id="postes" class="flex">
-            <ul id="liste-postes" class="flex">
-                <li>Président</li>
-                <li>Vice-président</li>
-                <li>Secrétaire Général</li>
-                <li>Trésorier</li>
-                <li>Chargé d'affaires</li>
-                <li>Responsable communication</li>
-                <li>responsable informatique</li>
-                <li>Responsable developpement commercial</li>
-                <li>Responsable qualité</li>
-            </ul>
+        <div id="postes">
 
+            <input class="radio" name="group" type="radio" id="radio-president" checked>
+            <input class="radio" name="group" type="radio" id="radio-vice-pre">
+            <input class="radio" name="group" type="radio" id="radio-secretaire">
+            <input class="radio" name="group" type="radio" id="radio-tresorier">
+            <input class="radio" name="group" type="radio" id="radio-charge-affaires">
+            <input class="radio" name="group" type="radio" id="radio-respo-comm">
+            <input class="radio" name="group" type="radio" id="radio-respo-si">
+            <input class="radio" name="group" type="radio" id="radio-respo-devco">
+            <input class="radio" name="group" type="radio" id="radio-respo-qualite">
 
-            <div class="explanation-poste">
-                <div class="wrapper">
-                    <h3>Poste:</h3>
-                    le texte de description du poste selectionné
+            <div class="tabs wrapper" id="tabs">
+                <label class="tab" id="tab-president" for="radio-president">Président</label>
+                <label class="tab" id="tab-vice-pre" for="radio-vice-pre">Vice-Président</label>
+                <label class="tab" id="tab-secretaire" for="radio-secretaire">Secrétaire</label>
+                <label class="tab" id="tab-tresorier" for="radio-tresorier">tresorier</label>
+                <label class="tab" id="tab-charge-affaires" for="radio-charge-affaires">charge-affaires</label>
+                <label class="tab" id="tab-respo-comm" for="radio-respo-comm">respo-comm</label>
+                <label class="tab" id="tab-respo-si" for="radio-respo-si">respo-si</label>
+                <label class="tab" id="tab-respo-devco" for="radio-respo-devco">respo-devco</label>
+                <label class="tab" id="tab-respo-qualite" for="radio-respo-qualite">respo-qualite</label>
+            </div>
+
+            <div class="pannels-postes wrapper" id="panel-postes">
+                <div class="panel" id="one-panel">
+                    <div class="panel-title">Why Learn CSS?</div>
+                    <p>Without CSS, every web page would be drab plain text and images that flowed straight down the
+                        page. With CSS, you can add color and background images and change the layout of your page —
+                        your web pages can feel like works of art!</p>
+                </div>
+                <div class="panel" id="two-panel">
+                    <div class="panel-title">Take-Away Skills</div>
+                    <p>You will learn many aspects of styling web pages! You’ll be able to set up the correct file
+                        structure, edit text and colors, and create attractive layouts. With these skills, you’ll be
+                        able to customize the appearance of your web pages to suit your every need!</p>
+                </div>
+                <div class="panel" id="three-panel">
+                    <div class="panel-title">Note on Prerequisites</div>
+                    <p>We recommend that you complete Learn HTML before learning CSS.</p>
                 </div>
             </div>
         </div>
+
     </div>
+
 
 </div>
 
-
-<div class="wrapper">
-    <div class="w3-bar w3-black">
-        <button class="w3-bar-item w3-button" onclick="openCity('London')">London</button>
-        <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
-        <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
-    </div>
-
-    <div id="London" class="w3-container city">
-        <h2>London</h2>
-        <p>London is the capital city of England.</p>
-    </div>
-
-    <div id="Paris" class="w3-container city" style="display:none">
-        <h2>Paris</h2>
-        <p>Paris is the capital of France.</p>
-    </div>
-
-    <div id="Tokyo" class="w3-container city" style="display:none">
-        <h2>Tokyo</h2>
-        <p>Tokyo is the capital of Japan.</p>
-    </div>
-</div>
 
 
 
