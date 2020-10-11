@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
+
+
 
 @Component({
   selector: 'app-page-etudiants',
@@ -9,7 +12,13 @@ export class PageEtudiantsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
-
+  onSubmit(form: NgForm) {
+    const name = form.value['name'];
+    const status = form.value['status'];
 }
+  
+}
+
+
