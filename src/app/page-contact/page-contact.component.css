@@ -1,34 +1,59 @@
-table{
-    font-size:20px;
-    margin:auto;
+.contact {
+  flex-wrap: nowrap;
 }
 
-p{
-    font-size:20px;
-    margin:auto;
-    width:70%;
-    min-width: 500px;
+.contact img {
+  max-width: 40%;
+  object-fit: cover;
 }
 
-a{
-    text-decoration: none;
-    color:black;
-    font-size:30px;
+.contact .formout {
+  margin: 0;
 }
 
-:required{
-    background-color: red;
+.line {
+  width: 100%;
+  /* border: 1px solid red; */
+  padding: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
 }
 
-td{
-    border: 1px none black;
-    width:100px;
-    text-align: center;
+.line label {
+  display: inline-block;
+  width: 100%;
+  padding: 3px;
 }
 
-ul{
-    font-size:20px;
-    margin:auto;
-    width:70%;
-    min-width: 500px;
+.line input,
+.line select {
+  box-sizing: inherit;
+  /* ça fait faire des trucs étranges */
+  width: 100%;
+  padding: 3px;
+  height: 30px;
+  border: 0;
+  box-shadow: 0px 0px 2px gray;
+}
+
+.line input:focus {
+  box-shadow: 0px 0px 5px gray;
+  border: 2px solid gray;
+}
+
+.line button {
+  float: right;
+  min-width: 30%;
+  min-height: 30px;
+  background-color: var(--bleu-clair);
+  border: none;
+  border-radius: 5px;
+  color:white;
+  transition-property: transform;
+  transition-duration: 150ms;
+}
+
+button:hover {
+  box-shadow: 0px 0px 2px gray;
+  transform: scale(1.1);
 }
