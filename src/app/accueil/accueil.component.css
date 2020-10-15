@@ -47,10 +47,29 @@
 .notre-ecole {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .text-ecole {
   display: inline-block;
   width: 50%;
   border: 1px solid red;
+}
+
+h3{
+  text-align: center;
+}
+
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align:justify;
+}
+
+.domaine p{
+  text-align: center;
+}
+
+.notre-ecole img{
+  display: inline-block;
 }
