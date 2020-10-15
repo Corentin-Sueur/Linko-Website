@@ -47,12 +47,12 @@
 .notre-ecole {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .text-ecole {
   display: inline-block;
   width: 50%;
+  min-width: 500px;
   border: 1px solid red;
 }
 
@@ -72,4 +72,12 @@ p{
 
 .notre-ecole img{
   display: inline-block;
+}
+
+#image{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  width: 50%;
+  max-width: 500px;
 }
