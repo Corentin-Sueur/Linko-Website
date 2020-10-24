@@ -24,7 +24,7 @@ h3 {
 }
 
 .tabs {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
 }
@@ -39,7 +39,6 @@ h3 {
   flex-direction: column;
   flex-shrink: 1;
 }
-
 
 .radio {
   display: none;

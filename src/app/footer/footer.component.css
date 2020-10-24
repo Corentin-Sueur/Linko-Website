@@ -1,5 +1,5 @@
 footer {
-  background-color: aqua;
+  background-image: linear-gradient(to right, #22427c, #26c4ec);
   font-size: 20px;
 }
 
@@ -21,6 +21,11 @@ ul {
 
 #reseaux li {
   display: inline-block;
+  font-size: 40px;
+}
+
+#reseaux li:hover {
+  color: grey;
 }
 
 .logo-ext {
@@ -37,4 +42,7 @@ a:any-link {
   display: inline-block;
   font-size: small;
   color: rgb(109, 126, 202);
+  width: 100%;
+  text-align: center;
+  color: black;
 }

@@ -1,46 +1,45 @@
 <footer>
-    <div class="wrapper">
-        <ul id="contacts-list">
-            <li class="li-inline">
-                <a routerLink="contact">
-                <h2>Contact</h2></a>
-                <ul>
-                    <li id='mail'><a href="mailto:corentin.sueur@outlook.com">Mail</a></li>
-                    <li id="adresse"><a href="">Adresse postale</a></li>
-                </ul>
-                <!-- pour l'adresse et les le mail faire avec des hover mais -->
-
-            </li>
-
-            <li id="reseaux" class="li-inline">
-
-                <h2>Nos réseaux</h2>
-                <ul>
-                    <li>
-                        <a href="">
-                            <img src="../../assets/img/linkedin.svg" alt="linkedin" class="logo-ext">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="../../assets/img/instagram.svg" alt="facebook" class="logo-ext">
-                        </a>
-                    </li>
-                    <li><a href="">
-                        <img src="../../assets/img/facebook.svg" alt="" class="logo-ext">
-                    </a></li>
-                </ul>
-            </li>
-
-
+  <div>
+    <ul id="contacts-list">
+      <li class="li-inline">
+        <a routerLink="contact"> <h2>Contact</h2></a>
+        <ul>
+          <li id="mail">
+            <a href="mailto:corentin.sueur@outlook.com"> Mail</a>
+          </li>
+          <li id="adresse"><a href="">Adresse postale</a></li>
         </ul>
+        <!-- pour l'adresse et les le mail faire avec des hover mais -->
+      </li>
 
+      <li id="reseaux" class="li-inline">
+        <h2>Nos réseaux</h2>
+        <ul>
+          <li>
+            <a href="">
+              <fa-icon [icon]="faLinkedin"></fa-icon>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <fa-icon [icon]="faInstagram"></fa-icon>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <fa-icon [icon]="faFacebookSquare"></fa-icon>
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
 
-        <div id="copyright">
-            <!-- Copyright Ⓒ 2020 Linko <br> -->
-            make with <span style="color: rgb(255, 101, 101);">&#10084;</span> by our team
-        </div>
-
-
+    <div id="copyright">
+      <!-- Copyright Ⓒ 2020 Linko <br> -->
+      <p>
+        make with <span style="color: rgb(255, 101, 101)">&#10084;</span> by our
+        team
+      </p>
     </div>
+  </div>
 </footer>

@@ -28,7 +28,7 @@
   justify-content: space-around;
 }
 
-.domaine-de-competences p{
+.domaine-de-competences p {
   font-size: larger;
 }
 
@@ -52,5 +52,5 @@
 .text-ecole {
   display: inline-block;
   width: 50%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }

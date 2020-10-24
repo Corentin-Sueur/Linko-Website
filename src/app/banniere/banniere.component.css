@@ -62,7 +62,7 @@ nav a:hover {
   line-height: calc(attr(height));
   border-radius: 5px;
   padding: 4px 10px;
-  background-color: #26c4ec;
+  background-image: linear-gradient(to right, #22427c, #26c4ec);
   color: white;
   transition-property: background;
   transition-duration: 250ms;
