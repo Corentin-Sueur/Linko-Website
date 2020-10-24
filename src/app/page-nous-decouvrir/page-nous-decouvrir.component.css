@@ -1,0 +1,51 @@
+.warpper {
+  flex-wrap: wrap;
+}
+
+.flex {
+  flex-wrap: wrap;
+}
+.personnel {
+  width: 200px;
+  position: relative;
+  text-align: center;
+  margin: 20px;
+  transition-property: box-shadow;
+  transition-duration: 0.2s;
+  background: white;
+  color: black;
+}
+.personnel:hover {
+  box-shadow: 0 0 5px 2px var(--bleu-clair);
+}
+.personnel img {
+  width: 200px;
+}
+
+#Info {
+  color: yellow;
+}
+
+#Tis {
+  color: blue;
+}
+
+#Iese {
+  color: rgb(248, 66, 178);
+}
+
+#Pri {
+  color: rgb(247, 105, 22);
+}
+
+#Mat {
+  color: red;
+}
+
+#Ggc {
+  color: green;
+}
+
+#E2i {
+  color: black;
+}

@@ -1,0 +1,29 @@
+img{
+    border: 1px none;
+}
+
+h1{
+    text-align: center;
+    font-size:40px;
+}
+
+
+.container {
+    display:flex;
+    flex-direction: column;
+    border: 2px red none;
+    width:100%;
+    border-radius: 100px;
+    font-size: x-large;
+    text-align: justify;
+    justify-content: space-around;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+p{
+    font-size: large;
+    width: 75%;
+    min-width: 800px;
+}
+

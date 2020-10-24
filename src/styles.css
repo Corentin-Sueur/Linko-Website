@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   margin: 0;
+  --bleu-fonce: #22427C;
+  --bleu-clair: #26C4EC;
+  line-height: 150%;
 }
 
 h1 {
@@ -12,16 +15,15 @@ body {
 }
 
 h2 {
-  font-size: 40px;
-  min-width: 200px;
   text-align: center;
 }
 
 .wrapper {
   margin: 0 auto;
   padding: 20px 20px;
-  max-width: 1200px;
+  max-width: 1000px;
   border: 1px solid red;
+  text-align: justify;
 }
 
 /* mettre un z indez plus grand pour la banniere, le logo passe dessus */
@@ -29,4 +31,18 @@ h2 {
 .flex {
   display: flex;
   justify-content: space-around;
+}
+
+.green {
+  background-color: #2d3142;
+  color: white;
+}
+
+.dark-blue {
+  background: #faffae;
+}
+
+a:any-link {
+  color:inherit ;
+  text-decoration: none;
 }
