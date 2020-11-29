@@ -40,17 +40,25 @@
 
 .domaine img {
   width: 70%;
-  filter: invert(100%);
+  /* filter: invert(100%);  pour mettre les trucs */
   padding: 5%;
 }
 
-.notre-ecole {
-  display: flex;
-  justify-content: space-between;
+h3{
+  text-align: center;
 }
 
-.text-ecole {
-  display: inline-block;
-  width: 50%;
-  border: 1px solid red;
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align:justify;
+}
+
+.domaine p{
+  text-align: center;
+}
+
+.notre-demarche img{
+  display:inline-block;
+  width:100%;
 }
