@@ -49,3 +49,18 @@
 #E2i {
   color: black;
 }
+
+
+.notre-ecole {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.text-ecole {
+  /* background-image: url("../../assets/img/Polytech_Grenoble_Presentation.jpg"); */
+  display: inline-block;
+  width: 50%;
+  border: 1px solid red;
+}
