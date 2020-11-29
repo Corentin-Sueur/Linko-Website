@@ -1,55 +1,49 @@
-.warpper {
-  flex-wrap: wrap;
-}
-
 .flex {
   flex-wrap: wrap;
 }
+
 .personnel {
   width: 200px;
-  position: relative;
+  max-height: 350px;
+  /* position: relative; */
   text-align: center;
   margin: 20px;
   transition-property: box-shadow;
   transition-duration: 0.2s;
   background: white;
   color: black;
+  overflow: hidden;
 }
+/* définir la taille de images qq part */
+
+.personnel img {
+  width: 200px;
+  max-height: 300px;
+  position: relative;
+}
+
+.personnel .description{
+  padding: 0 5px;
+  max-height: 150px;
+}
+
+.personnel p{
+  display: inline-block;
+  border: 1px solid red;
+}
+
+
+.personnel-inside{
+  transition: transform .2s ease-out;
+}
+
 .personnel:hover {
   box-shadow: 0 0 5px 2px var(--bleu-clair);
 }
-.personnel img {
-  width: 200px;
-}
 
-#Info {
-  color: yellow;
+.personnel:hover .personnel-inside{
+  transform: translate(0, -60px);
 }
-
-#Tis {
-  color: blue;
-}
-
-#Iese {
-  color: rgb(248, 66, 178);
-}
-
-#Pri {
-  color: rgb(247, 105, 22);
-}
-
-#Mat {
-  color: red;
-}
-
-#Ggc {
-  color: green;
-}
-
-#E2i {
-  color: black;
-}
-
 
 .notre-ecole {
   display: flex;
@@ -57,10 +51,12 @@
   align-items: center;
 }
 
-
 .text-ecole {
   /* background-image: url("../../assets/img/Polytech_Grenoble_Presentation.jpg"); */
   display: inline-block;
   width: 50%;
   border: 1px solid red;
+}
+.lkin img{
+  width: 20px;
 }
