@@ -4,6 +4,7 @@ body {
   --bleu-fonce: #22427C;
   --bleu-clair: #26C4EC;
   line-height: 150%;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -22,7 +23,7 @@ h2 {
   margin: 0 auto;
   padding: 20px 20px;
   max-width: 1000px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: justify;
 }
 
